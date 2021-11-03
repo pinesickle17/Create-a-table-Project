@@ -94,8 +94,3 @@ TRUNCATE Company;
 
 DROP TABLE Employee;
 DROP TABLE Company;
-
-
-
-
-
