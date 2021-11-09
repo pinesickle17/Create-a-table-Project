@@ -40,3 +40,4 @@ SELECT CONCAT(Employee.FirstName,' ', Employee.LastName) AS 'Min_Male_Salary', E
 SELECT * FROM Employee, Company WHERE EMP_ID=Employee_ID ORDER BY 1,2;
 ---or using INNER JOIN
 SELECT * FROM Employee emp INNER JOIN Company cmp ON emp.EMP_ID=cmp.Employee_ID ORDER BY 1,2;
+
